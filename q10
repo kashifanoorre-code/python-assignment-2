@@ -1,0 +1,5 @@
+items = ['a', 'b', 'a', 'c', 'b', 'a']
+frequency = {}
+for i in items:
+    frequency[i] = frequency.get(i, 0) + 1
+print(frequency)
