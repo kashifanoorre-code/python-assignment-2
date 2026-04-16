@@ -1,0 +1,8 @@
+def fibonacci_gen(n):
+    a, b = 0, 1
+    while a <= n:
+        yield a
+        a, b = b, a + b
+
+for num in fibonacci_gen(50):
+    print(num, end=" ")
