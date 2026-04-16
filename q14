@@ -1,0 +1,3 @@
+old_dict = {"a": 1, "b": 2, "c": 3}
+swapped_dict = {value: key for key, value in old_dict.items()}
+print(swapped_dict)
