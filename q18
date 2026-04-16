@@ -1,0 +1,4 @@
+keys = ["name", "age", "job"]
+values = ["Bob", 30, "Dev"]
+result_dict = dict(zip(keys, values))
+print(result_dict)
